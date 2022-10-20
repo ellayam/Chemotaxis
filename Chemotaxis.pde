@@ -30,7 +30,7 @@ void draw() {
 }
 
 void mousePressed() {
-  redraw(); //put this here or no?
+  redraw();
   touched = false;
 }
 
