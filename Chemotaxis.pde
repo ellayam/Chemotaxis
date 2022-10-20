@@ -61,19 +61,6 @@ class Bacteria {
       bacY += (int)(Math.random()*7) - 4;
     }
     
-    //FAST
-    /*if(mouseX > bacX) {
-      bacX += (int)(Math.random()*12) - 3;
-    } else {
-      bacX += (int)(Math.random()*12) - 9;
-    }
-    
-    if(mouseY > bacY) {
-      bacY += (int)(Math.random()*12) - 3;
-    } else {
-      bacY += (int)(Math.random()*12) - 9;
-    } */
-    
     if(mouseX == bacX && mouseY == bacY) {
       touched = true;
     }
