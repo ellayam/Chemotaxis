@@ -1,4 +1,4 @@
- Bacteria[] virus;
+Bacteria[] virus;
 Face uninfected;
 Face infected;
 
