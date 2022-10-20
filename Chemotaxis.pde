@@ -48,7 +48,6 @@ class Bacteria {
   }
   
   void move() {
-    //MEDIUM
     if(mouseX > bacX) {
       bacX += (int)(Math.random()*7) - 2;
     } else {
